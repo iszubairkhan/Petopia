@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petoia by Zubair Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png">
+
+
+
+</head>
+<body>
+
+        <div class="landing-page">
+            <h1>Welcome to Petopia</h1>
+            <p>Your interactive virtual pet experience</p>
+            <button onclick="startGame()">Start Caring</button>
+        </div>
+        <div class="container" id="main-content" style="display: none;">
+                <header>
+                    <h1>Welcome to Petopia : THE WORLD OF VIRTUAL PET !!</h1>
+                </header>
+                <main>
+                    <div class="pet-container">
+                        <img id="pet-image" src="images/golden-retriever2.png" alt="Golden Retriever">
+                        <div id="pet-hap">Happiness: 20%</div>
+                        <div id="pet-hunger"> Hunger: 20%</div>
+                        <div class="actions">
+
+                            <button onclick="feedPet()">Feed</button>
+                            <button onclick="playWithPet()">Play</button>
+                            <button onclick="barkPet" id="bark-button">Bark</button>
+                            <br>
+                            <button onclick="resetGame()">Reset</button>
+                        </div>
+                    </div>
+                </main>
+            <script src="app.js"></script>
+        </div>
+
+        <!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-about">
+            <h2>About Petopia</h2>
+            <p>Petopia is your interactive virtual pet experience. Feed, play, and take care of your digital golden retriever to keep it happy and healthy!</p>
+        </div>
+        <div class="footer-links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="mailto:zubair@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h2>Follow Us</h2>
+            <a href="https://www.linkedin.com/in/mohammad-zubair-khan-9651ab315"><img src="images/LinkedIn.png"></a>
+            <a href="https://github.com/zubairkhan9958"> <img src="images/Github.png"></a>
+            <a href="https://youtube.com/@techzita6346?si=WtRVrWJS3Wc7W9GM"><img src="images/Youtube.png" alt=""></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Petopia by Zubair Khan.</p>
+    </div>
+</footer>
+
+    
+</body>
+</html>

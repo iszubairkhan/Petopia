@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2F4F4F;
+    color: #D3D3D3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.landing-page h1 {
+    font-size: 3em;
+    color: #FFD700;
+}
+
+.landing-page p {
+    font-size: 1.5em;
+    color: #D3D3D3;
+}
+
+.landing-page button {
+    padding: 15px 30px;
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+.landing-page button:hover {
+    background-color: #00BFFF;
+}
+
+
+h1{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: FFD700;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.pet-container {
+    background-color: #393E46;
+    border-radius: 15px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#pet-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.actions button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00BFFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #FF8C00;
+}
+
+#pet-hap {
+    margin-top: 20px;
+
+}
+
+#pet-hunger {
+    margin-top: 20px;
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+}
+
+.jump {
+    animation: jump 0.5s;
+}
+
+/* Footer styling */
+footer {
+    background-color: #393E46; /* Dark background to match theme */
+    color: #D3D3D3; /* Light grey text color */
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 5.8rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-about, .footer-links, .footer-social {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px; /* Ensure minimum width for small screens */
+}
+
+.footer-about h2, .footer-links h2, .footer-social h2 {
+    color: #FFD700; /* Gold color for headings */
+    margin-bottom: 10px;
+}
+
+.footer-about p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    color: #00BFFF; /* Deep Sky Blue for links */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #FF8C00; /* Dark Orange on hover */
+}
+
+.footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+    
+}
+
+.footer-social img {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    /* filter: invert(1); Make the icons white */
+}
+
+.footer-bottom {
+    background-color: #2F4F4F; /* Slightly darker for bottom section */
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+    justify-content: center;
+    align-items: center;
+}
